@@ -1,0 +1,20 @@
+=== Welcome to Surti Compiler ===
+
+Input: x = 0;
+Input: y = 1;
+Input: chalni_lakh 4;
+Input: jo_ben x < y 
+Input: chalni_lakh 11;
+Input: nai_to_ben
+Input: x y 
+Input: chalni_lakh 14;
+11
+14
+Input: jo_ben x == 10 
+Input: chalni_lakh 21;
+21
+Input: z = 26;
+Input: chalni_lakh 27;
+
+=== Chalni ja aave ===
+

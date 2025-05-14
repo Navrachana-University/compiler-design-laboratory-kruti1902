@@ -1,0 +1,21 @@
+x = 10;
+y = 5;
+z = 15;
+
+chalni_lakh "Testing logical operators:";
+
+jo_ben x > y aane z > x {
+    chalni_lakh "Both conditions are true";
+}
+
+jo_ben x < y athwa z > x {
+    chalni_lakh "At least one condition is true";
+}
+
+jo_ben aa_nai (x == y) {
+    chalni_lakh "x is not equal to y";
+}
+
+jo_ben x > y aane aa_nai (z < x) {
+    chalni_lakh "Complex logical expression is true";
+} 

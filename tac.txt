@@ -1,0 +1,47 @@
+=== Three Address Code ===
+
+t0 = 10
+x = t0
+t1 = 5
+y = t1
+t2 = x
+t3 = y
+t4 = t2 + t3
+print t4
+t5 = x
+t6 = y
+t7 = t5 < t6
+if t7 == 0 goto L8
+goto L9
+L8:
+t9 = x
+t10 = y
+t11 = t9 * t10
+print t11
+t12 = x
+t13 = y
+t14 = t12 - t13
+print t14
+L15:
+t15 = x
+t16 = 10
+t17 = t15 == t16
+if t17 == 0 goto L18
+goto L19
+L18:
+t19 = x
+t20 = y
+t21 = t19 / t20
+print t21
+L22:
+t22 = x
+t23 = y
+t24 = 2
+t25 = t23 * t24
+t26 = t22 + t25
+z = t26
+t27 = z
+print t27
+
+=== End of Three Address Code ===
+

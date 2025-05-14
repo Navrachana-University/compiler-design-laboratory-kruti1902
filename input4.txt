@@ -1,0 +1,29 @@
+x = 10;
+y = 20;
+z = 15;
+
+chalni_lakh "Testing if-else statements:";
+
+jo_ben x > y {
+    chalni_lakh "x is greater than y";
+} nai_to_ben {
+    chalni_lakh "x is not greater than y";
+}
+
+jo_ben x > z {
+    chalni_lakh "x is greater than z";
+} nai_to_ben {
+    chalni_lakh "x is not greater than z";
+}
+
+jo_ben x > y aane z > x {
+    chalni_lakh "Both conditions are true";
+} nai_to_ben {
+    chalni_lakh "At least one condition is false";
+}
+
+jo_ben x < y athwa z < x {
+    chalni_lakh "At least one condition is true";
+} nai_to_ben {
+    chalni_lakh "Both conditions are false";
+} 

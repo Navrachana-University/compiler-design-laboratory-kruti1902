@@ -1,0 +1,16 @@
+x = 10;
+y = 5;
+chalni_lakh x + y;
+
+jo_ben x < y {
+    chalni_lakh x * y;
+} nai_to_ben {
+    chalni_lakh x - y;
+}
+
+jo_ben x == 10 {
+    chalni_lakh x / y;
+}
+
+z = x + y * 2;
+chalni_lakh z; 
